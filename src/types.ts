@@ -6,4 +6,9 @@ export type CartItemType = {
   price: number;
   title: string;
   amount: number;
+  // rating: number[];  ratingはオブジェクトであり配列ではない
+  rating: {
+    rate: number;
+    count: number;
+  }
 };
