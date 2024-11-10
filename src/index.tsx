@@ -10,6 +10,5 @@ const root = ReactDOM.createRoot(
 root.render(
   <QueryClientProvider client={client}>
     <App />
-    <h1>hoge</h1>
   </QueryClientProvider>
 );
